@@ -1,0 +1,7 @@
+require_relative './config/environment'
+
+task :console do
+  puts "Loading your application environment..."
+  puts "Console started:"
+  Pry.start
+end
